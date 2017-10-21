@@ -9,6 +9,9 @@ public class Project {
 	}
 
 	public boolean isWellSorted(String[] reihe) {
+		if (reihe.length <=2) {
+			return false;
+		}
 		int regel;
 		for (int i = 0; i < reihe.length - 1; ++i) {
 			regel = 0;
