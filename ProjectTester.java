@@ -25,7 +25,7 @@ public class ProjectTester {
 	}
 
 	@Test
-	public void test_leichteFolge_2() {
+	public void test_leichteFolge_3() {
 		assertFalse(leichteFolge.isWellSorted(new String[] { "mitte", "vorne", "hinten" }));
 	}
 }
